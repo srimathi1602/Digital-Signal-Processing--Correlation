@@ -1,3 +1,4 @@
+
 # Digital-Signal-Processing--Correlation
 ## AIM:
 To generate discrete auto correlation and cross correlation of signals using MATLAB.
@@ -16,10 +17,10 @@ Step 5: Terminate the program.
 
 
 ## PROGRAM: 
-
+```
 clc; % clear screen
- clear all; % clear screen
- close all; % close all figure windows
+clear all; % clear screen
+close all; % close all figure windows
 % INPUT SIGNAL-1
 x=input('Enter the x(n) sequence')
 n=0:1:length(x)-1
